@@ -6,6 +6,29 @@
     <title>Mi primera web</title>
 </head>
 <body>
+    <!-- formularios  -->
+
+
+    <!-- propiedades for para dar un nombre antes del label
+    el label es el indicador frente el campo de texto
+    en el input siempre se coloca id para clic en el label y se situe en la casilla
+    name se coloca para poder escoger la llave para poder hacer conexion entre base de datos o interaccion -->
+    <form>
+        <!-- nombre para indicar el cuadro de texto -->
+        <label for="nombre" >Nombre</label>
+        <!-- id es identificar a donde se va a ir 
+        nombre es para guardar la llave en la interaccion
+        placeholder es para indicar un texto de fondo en la caja de texto-->
+        <!-- type es para dar la opcion de como interactuar con el usuario -->
+        <input type="" id="nombre" name="nombre" placeholder="datos a llenar"/> <br>
+        <label for="apellido" >Nombre</label>
+        <input type="" id="apellido" name="apellido" placeholder="datos a llenar 2"/> <br>
+        <br>
+        <label for="comentario">comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"> </textarea>
+    </form>
+
+
     <!-- solo hay hasta 6 titulos -->
     <h1>mi primer heading</h1>
     <h2>mi segundo heading</h2>
@@ -39,6 +62,9 @@
     <a target="_blank" href="http://www.google.com">ir a google</a>
     <!-- imagenes -->
     <!--src es para colocar la direccion , si esta en la misma ruta se coloca solo nombre y extencion  -->
-    <img src="img/TOTS.webp"/>
+    <!-- con las propiedades de heigth y width se realiza ajuste en el tamaño de las imagenes  -->
+    <img src="img/TOTS.webp" height="400" width="100" />
+
+    
 </body>
 </html>
